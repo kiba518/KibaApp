@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:background="#953399ff"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <Button
+        android:id="@+id/btnCancelScan"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="取消扫描"
+        android:textColor="#ffffffff"
+        android:background="#953399ff"
+        android:gravity="center" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="330dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:background="#953399ff"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+        <RelativeLayout
+            android:id="@+id/rlscan"
+            android:layout_width="220dp"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:id="@+id/ivScanning"
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/scan_light" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/area_above_left" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/area_above_right" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/area_below_left" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/area_below_right" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="#953399ff"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <RelativeLayout
+        android:background="#953399ff"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:layout_alignParentTop="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:textSize="12sp"
+            android:textColor="#ffffffff"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="请将条形码放入框内，即可自动扫描" />
+    </RelativeLayout>
+</LinearLayout>

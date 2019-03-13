@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+            <TextView
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:text="Kiba"
+                android:textColor="#ffffffff"
+                android:gravity="center" />
+            <ImageView
+                android:id="@+id/download_btn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/rootblock_icon_download_bg" />
+            <ImageView
+                android:id="@+id/download_btn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/rootblock_icon_clear_bg" />
+            <ImageView
+                android:id="@+id/download_btn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/rootblock_icon_set_bg" />
+            <ImageView
+                android:id="@+id/download_btn"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/rootblock_icon_add_bg" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
