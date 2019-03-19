@@ -6,6 +6,7 @@ using Android.Views;
 using ZXing.Mobile;
 using System.Threading.Tasks;
 using Android.Views.Animations;
+using Android.Content;
 
 namespace KibaApp
 {
@@ -18,6 +19,15 @@ namespace KibaApp
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.MainActivity);
+            
+            Button btnPara = this.FindControl<Button>("btnPara");
+            btnPara.Click += (s, e) =>
+            {
+                Intent intent = new Intent(this, typeof(ParamActivity));
+                intent.PutExtra("para1", "Kiba518");
+                intent.PutExtra("para2", 518);
+                StartActivity(intent);
+            };
 
             Button btnScan = this.FindControl<Button>("btnScan");
             btnScan.Click += (s, e) =>

@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseActivity.cs" />
+    <Compile Include="ParamActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MenuFragment.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
@@ -220,6 +221,10 @@
     <Content Include="Camera\ZXing.Net.Mobile.Core.dll" />
     <Content Include="Camera\zxing.portable.dll" />
     <Content Include="Camera\ZXingNetMobile.dll" />
+    <AndroidResource Include="Resources\layout\ParamActivity.axml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

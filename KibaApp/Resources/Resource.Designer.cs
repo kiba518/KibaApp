@@ -149,7 +149,7 @@ namespace KibaApp
 			public const int btnCancelScan = 2131165188;
 			
 			// aapt resource value: 0x7f070001
-			public const int btnList = 2131165185;
+			public const int btnPara = 2131165185;
 			
 			// aapt resource value: 0x7f070000
 			public const int btnScan = 2131165184;
@@ -189,13 +189,16 @@ namespace KibaApp
 			public const int MenuFragment = 2130968577;
 			
 			// aapt resource value: 0x7f040002
-			public const int ZxingOverlay = 2130968578;
+			public const int ParamActivity = 2130968578;
 			
 			// aapt resource value: 0x7f040003
-			public const int zxingscanneractivitylayout = 2130968579;
+			public const int ZxingOverlay = 2130968579;
 			
 			// aapt resource value: 0x7f040004
-			public const int zxingscannerfragmentlayout = 2130968580;
+			public const int zxingscanneractivitylayout = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int zxingscannerfragmentlayout = 2130968581;
 			
 			static Layout()
 			{

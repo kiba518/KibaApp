@@ -36,11 +36,11 @@
                 android:layout_marginLeft="5dp"
                 android:background="#FF7F24">
                 <Button
-                    android:id="@+id/btnList"
+                    android:id="@+id/btnPara"
                     android:textAppearance="?android:textAppearanceMedium"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:text="列表"
+                    android:text="传参"
                     android:textColor="#ffffffff"
                     android:background="#FF7F24"
                     android:gravity="center" />
